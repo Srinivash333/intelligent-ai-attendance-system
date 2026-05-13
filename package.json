@@ -1,0 +1,16 @@
+{
+  "name": "attendance",
+  "version": "1.0.0",
+  "description": "An AI-powered smart classroom platform that automates attendance using face recognition, generates AI summaries for absent students, and suggests learning activities.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/index.js",
+    "server": "cd backend && npm start",
+    "client": "cd frontend && npm run dev",
+    "dev": "npx concurrently \"npm run server\" \"npm run client\"",
+    "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install"
+  },
+  "keywords": [],
+  "author": "SrinivasH",
+  "license": "ISC"
+}
