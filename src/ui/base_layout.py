@@ -71,8 +71,14 @@ def style_base_layout():
             color: black !important;
         }
 
+        h3{
+         font-family: 'Climate Crisis', sans-serif !important;
+         font-size: 1.5rem !important;
+         line-height: 0.9 !important;
+         }
+
         /* Text styles */
-        h3, h4, h5, h6, p{
+        h4, h5, h6, p{
             font-family: 'Outfit', sans-serif !important;
         }
 
